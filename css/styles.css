@@ -326,10 +326,7 @@ input[type="checkbox"].visually-hidden {
   max-width: 270px;
   height: 75px;
 }
-.section-title-list {
   display: flex;
-  flex-wrap: nowrap;
-  width: 1170px;
 }
 
 .section-title-li:not(:last-child) {
