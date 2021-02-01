@@ -336,28 +336,31 @@ input[type="checkbox"].visually-hidden {
   margin-right: 30px;
 }
 
-.section-title-li::before {
+.section-title-li {
+  width: 270px;
+}
+
+.title-advant::before {
   content: "";
   display: block;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.section-title-li:nth-child(1)::before {
+.icon-antenna::before {
   background-image: url(../images/antenna.svg);
 }
-.section-title-li:nth-child(2)::before {
+.icon-clock::before {
   background-image: url(../images/clock.svg);
 }
-.section-title-li:nth-child(3)::before {
+.icon-diagram::before {
   background-image: url(../images/diagram.svg);
 }
-.section-title-li:nth-child(4)::before {
+.icon-astronavt::before {
   background-image: url(../images/astronaut.svg);
 }
 
