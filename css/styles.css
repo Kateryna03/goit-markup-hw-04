@@ -349,16 +349,16 @@ input[type="checkbox"].visually-hidden {
 }
 
 .section-title-li:nth-child(1)::before {
-  background-image: url(../images/advantages.svg/antenna\ 1.svg);
+  background-image: url(../images/antenna.svg);
 }
 .section-title-li:nth-child(2)::before {
-  background-image: url(../images/advantages.svg/clock\ 1.svg);
+  background-image: url(../images/clock.svg);
 }
 .section-title-li:nth-child(3)::before {
-  background-image: url(../images/advantages.svg/diagram\ 1.svg);
+  background-image: url(../images/diagram.svg);
 }
 .section-title-li:nth-child(4)::before {
-  background-image: url(../images/advantages.svg/astronaut\ 1.svg);
+  background-image: url(../images/astronaut.svg);
 }
 
 /* CAPABILITIES section*/
