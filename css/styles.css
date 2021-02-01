@@ -359,7 +359,6 @@ input[type="checkbox"].visually-hidden {
 }
 .icon-astronavt::before {
   background-image: url(../images/astronaut.svg);
-}
 
 /* CAPABILITIES section*/
 .capabilities-section {
