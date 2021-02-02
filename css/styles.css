@@ -327,6 +327,11 @@ input[type="checkbox"].visually-hidden {
 .title-description {
   max-width: 270px;
   height: 75px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 
@@ -477,6 +482,7 @@ rgba(0, 0, 0, 0.12) */
   display: flex;
   text-align: center;
   justify-content: space-between;
+  padding: 0;
 }
 
 .social-list-link:hover,
@@ -497,6 +503,7 @@ rgba(0, 0, 0, 0.12) */
   height: 44px;
   background: #ffffff;
   border-radius: 50%;
+  
 }
 
 .social-list-icon {
@@ -550,6 +557,11 @@ rgba(0, 0, 0, 0.12) */
 .customer-list-link:hover .customer-list-icon,
 .customer-list-link:focus .customer-list-icon {
   fill: #2196f3;
+}
+
+.customer-list-item {
+  width: 170px;
+  height: 90px;
 }
 
 .customer-list-link {
