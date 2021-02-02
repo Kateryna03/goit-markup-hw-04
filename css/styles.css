@@ -343,9 +343,6 @@ input[type="checkbox"].visually-hidden {
   margin-right: 30px;
 }
 
-.section-title-li {
-  width: 270px;
-}
 
 .section-title-list {
   display: flex;
@@ -353,8 +350,9 @@ input[type="checkbox"].visually-hidden {
 
 .title-advant::before {
   content: "";
-  display: block;
+  display: flex;
   height: 120px;
+  widows: 270px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
