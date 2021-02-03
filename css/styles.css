@@ -410,29 +410,17 @@ input[type="checkbox"].visually-hidden {
 .team-flex-item {
   text-align: center;
   width: 270px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
   border: 1px solid #ffffff;
   background-color: var(--primary-lite-color);
-
-  /* SHADOWS
-Drop-shadow
-Radius: 1px
-Offset: 0px, 2px
-rgba(0, 0, 0, 0.2)
-Effect: Drop shadow
-Radius: 1px
-Offset: 0px, 1px
-rgba(0, 0, 0, 0.14)
-Effect: Drop shadow
-Radius: 3px
-Offset: 0px, 1px
-rgba(0, 0, 0, 0.12) */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-flex-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .team-card {
   width: 270px;
   height: 168px;
