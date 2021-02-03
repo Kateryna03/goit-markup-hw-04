@@ -718,7 +718,7 @@ rgba(0, 0, 0, 0.12) */
 
 .portfolio-button.active,
 .portfolio-button:hover,
-.portfolio-butto:focus {
+.portfolio-button:focus {
   color: var(--primary-lite-color);
   background-color: var(--accent-color);
   cursor: pointer;
