@@ -86,10 +86,8 @@ input[type="checkbox"].visually-hidden {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .page-header .container {
@@ -180,10 +178,8 @@ input[type="checkbox"].visually-hidden {
 }
 
 .header-icon {
-  width: 16px;
-  height: 12px;
   fill: currentColor;
-  align-items: center;
+  text-align: center;
   margin-right: 10px;
   background-size: contain;
 }
@@ -192,12 +188,14 @@ input[type="checkbox"].visually-hidden {
   display: block;
   height: 100%;
   cursor: pointer;
+  text-align: center;
 }
 
 .link-tel {
   display: block;
   height: 100%;
   cursor: pointer;
+  text-align: center;
 }
 
 /*Site nav*/
